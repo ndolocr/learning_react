@@ -1,6 +1,8 @@
 import './App.css';
 import Employee from './components/Employee.js'
+import Card from './components/Card.jsx'
 import { useState } from 'react';
+import './index.css';
 
 function App() {
   const showEmployees = true;
@@ -10,7 +12,10 @@ function App() {
     <div className="App">
       {showEmployees ?
         <div>
-          <input 
+          <Card/>
+          <Card/>
+          <Card/>
+          {/* <input 
             type="text"
             onChange={
               function(e){
@@ -21,7 +26,7 @@ function App() {
           />
           
           <Employee name='Anna' role='Manager'/>
-          <Employee name='Peter' role={role}/>
+          <Employee name='Peter' role={role}/>  */}
         </div>     
       :
         <p>No Employee information</p>
