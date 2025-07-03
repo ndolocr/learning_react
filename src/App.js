@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       {showEmployees ?
         <div>
-          <Employee></Employee>
-          <Employee></Employee>
+          <Employee name='Anna' role='Manager'/>
+          <Employee name='Peter'/>
         </div>     
       :
         <p>No Employee information</p>

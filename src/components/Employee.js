@@ -1,5 +1,12 @@
-function Employee(){
-    return <h3> Here is an Employee component </h3>; 
+function Employee(props){
+    return (
+        <div>
+            <ul>
+                <li> Name: {props.name}</li>
+                {props.role ? <li>{props.role}</li> : <li> No Role</li>}
+            </ul>
+        </div>
+    ); 
 }
 
 export default Employee;
