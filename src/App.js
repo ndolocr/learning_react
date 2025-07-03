@@ -1,6 +1,9 @@
 import './App.css';
-import Employee from './components/Employee.js'
 import Card from './components/Card.jsx'
+import Button from './components/Button.jsx'
+import Student from './components/Student.jsx'
+import Employee from './components/Employee.js'
+
 import { useState } from 'react';
 import './index.css';
 
@@ -15,12 +18,19 @@ function App() {
           <Card/>
           <Card/>
           <Card/>
+
+         <Button/> 
+
+         <Student name="Annah Chala" age={23} isStudent={true} />
+         <Student name="James Kimani" age={42} isStudent={false} />
+         <Student name="Salome Muhula" age={22} isStudent={true} />
+         <Student name="Yakub Hussein" age={43} isStudent={false} />
           {/* <input 
             type="text"
             onChange={
               function(e){
-                console.log(e.target.value);
-                setRole(e.target.value);
+                // console.log(e.target.value);
+                // setRole(e.target.value);
               }
             }
           />

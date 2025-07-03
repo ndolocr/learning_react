@@ -26,3 +26,23 @@
     font-family: Arial, sans-serif;
     color: hsl(0, 0%, 0.4);
 }
+
+.button{
+    background-color: hsl(200, 100%, 50%);
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.student{
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: solid 1px hsla(0, 0%, 50%, 0.8);
+}
+
+.student p{
+    margin: 0;
+}
